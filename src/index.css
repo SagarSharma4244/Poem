@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+}
+.App {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#poemboard {
+  width: 50%;
+  /* height: inherit; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -150px;
+}
+
+#poem-title {
+  font-size: xxx-large;
+  flex-wrap: wrap;
+}
+#poem-body {
+  margin-top: 15px;
+  margin-left: 10px;
+}
+#poem-content {
+  font-size: x-large;
+  line-height: 1.3;
+}
